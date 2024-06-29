@@ -19,9 +19,9 @@
 
 - (1-1) ရဲ့ body မှာဆိုရင်တော့ အပိုင်းတစ်ခုခြင်းစီအတွက် section tagsကိုအသုံးပြုထားပါတယ်။
 
-- section tags 5ခုဖြင့် ရေးထားပြီး (1st section - "Hero/Jumbotron" section, 2nd section - "what we do" section, 3rd section - "what you do" section, 4th section - "meet the trainers" section, 5th section - "Reach Out" section) တို့ဖြစ်ပါတယ်။
+- Section tags 5ခုဖြင့် ရေးထားပြီး (1st section - "Hero/Jumbotron" section, 2nd section - "what we do" section, 3rd section - "what you do" section, 4th section - "meet the trainers" section, 5th section - "Reach Out" section) တို့ဖြစ်ပါတယ်။
 
-- section တစ်ခုချင်းစီရဲ့ title အတွက် "h2" tag ကိုအသုံးပြုပေးရမယ်။ Header ပိုင်းတွင် "h1" tag ကိုအသုံးပြူထားခြင်းကြောင့် body ပိုင်းဧ။် section တစ်ခုချင်းစီတွင် "h2" tagကိုအသုံးပြုပေးရခြင်းဖြစ်ပါသည်။
+- Section တစ်ခုချင်းစီရဲ့ title အတွက် "h2" tag ကိုအသုံးပြုပေးရမယ်။ Header ပိုင်းတွင် "h1" tag ကိုအသုံးပြူထားခြင်းကြောင့် body ပိုင်းဧ။် section တစ်ခုချင်းစီတွင် "h2" tagကိုအသုံးပြုပေးရခြင်းဖြစ်ပါသည်။
 
         <!-- hero/ jumbotron -->
         <section>
@@ -49,11 +49,11 @@
 
 # ✨ (1-2)
 
-- lesson(1-1)မှာဆိုရင် HTML သီးသန့်သာ သုံးထားပြီး lesson(1-2)မှာဆိုရင်တော့ CSSကို စတင်အသုံးပြုလာပြီး HTML နဲ့ CSS ကိုဘယ်လိုချိတ်ဆက် အသုံးပြုရမလဲဆိုတာ သင်ကြားပေးထားပါတယ်။
+- Lesson(1-1)မှာဆိုရင် HTML သီးသန့်သာ သုံးထားပြီး lesson(1-2)မှာဆိုရင်တော့ CSSကို စတင်အသုံးပြုလာပြီး HTML နဲ့ CSS ကိုဘယ်လိုချိတ်ဆက် အသုံးပြုရမလဲဆိုတာ သင်ကြားပေးထားပါတယ်။
 
-## CSS Syntax (css ရေးသားနည်း)
+## 💡 CSS Syntax (css ရေးသားနည်း)
 
-- css ရေးသားနည်း အမျိုးမျိုးရှိပြီး အသုံးပြုသူ(user)တွေက (property)လို့ခေါ်တဲ့ ကြိုတင်သတ်မှတ်ပြီးသား designပြုပြင်နိုင်သော (style characteristic)ကို HTML element (HTML tags) များနှင့်တွဲပြီး အသုံးပြုနိုင်ပါတယ်။
+- CSS ရေးသားနည်း အမျိုးမျိုးရှိပြီး အသုံးပြုသူ(user)တွေက (property)လို့ခေါ်တဲ့ ကြိုတင်သတ်မှတ်ပြီးသား designပြုပြင်နိုင်သော (style characteristic)ကို HTML element (HTML tags) များနှင့်တွဲပြီး အသုံးပြုနိုင်ပါတယ်။
 
 - အောက်ပါပုံတွင်ပြထားသည့်အတိုင်း CSS syntax အချို့ကို ကြည့်နိုင်ပါတယ်
 ![css syntax](./image/css-syntax.png)
@@ -61,14 +61,26 @@
 ### ရှင်းပြချက်
 
 #### Selector
-- selector ဆိုတာ HTML element လို့ခေါ်တဲ့ (body tag)ကို ခေါ်သုံးထားခြင်းဖြစ်ပြီး element selectorလို့ခေါ်ခြင်းဖြစ်ပါတယ်။
+- Selector ဆိုတာ HTML element လို့ခေါ်တဲ့ (body tag)ကို ခေါ်သုံးထားခြင်းဖြစ်ပြီး element selectorလို့ခေါ်ခြင်းဖြစ်ပါတယ်။
  
 - (class)ကိုခေါ်သုံးရင် class selector လို့ခေါ်ပြီး (id)ကိုခေါ်သုံးရင် id selector လို့ခေါ်ပါတယ်။
 
 #### Property name
-- selectorကိုခေါ်ပြီးနောက် {} (curly brackets)ကိုခေါ်ပြီး {} (curly brackets) ထဲတွင် အသုံးပြုချင်သော property name ကိုခေါ်ပြီး အသုံးပြုနိုင်ပါတယ်။
+- Selectorကိုခေါ်ပြီးနောက် {} (curly brackets)ကိုခေါ်ပြီး {} (curly brackets) ထဲတွင် အသုံးပြုချင်သော property name ကိုခေါ်ပြီး အသုံးပြုနိုင်ပါတယ်။
 
-- CSS properties ရဲ့ examples တွေကတော့ color(စာသားအရောင်), background-image (နောက်ခံပုံထည့်ခြင်း), font-family (စာသားပုံစံပြောင်းခြင်း) အစရှိသဖြင့် အမျိုးမျိုးရှိကြပါတယ်။
+- CSS properties name ရဲ့ examples တွေကတော့ color(စာသားအရောင်), background-image (နောက်ခံပုံထည့်ခြင်း), font-family (စာသားပုံစံပြောင်းခြင်း) အစရှိသဖြင့် အမျိုးမျိုးရှိကြပါတယ်။
+
+#### Property value
+
+- Property value ဆိုတာ property name ကိုအထူးပြုထားခြင်းကိုဆိုလိုပါတယ်။
+
+- CSS properties value ရဲ့ examples တွေကတော့ (color:red;)ထဲမှာဆိုရင်တော့ red ကိုကိုယ်စားပြုခြင်းဖြစ်ပါတယ်။
+
+#### Declaration terminator
+
+- Declaration terminator ဆိုတာ property တစ်ခုနဲ့တစ်ခုကို အဆုံးတွင် ချိတ်ဆက်ပေးသော semicolon (;)ကို ခေါ်ခြင်းဖြစ်ပါတယ်။
+
+- semicolon (;) မပါရင် propertiesတွေက အလုပ်မလုပ်သောကြောင့် semicolon (;)ကိုမဖြစ်မနေ ရေးပေးရပါမည်။
 
 ## 💡 ရေးသားရမည့် ပုံစံ 
  ![Webpage titled "(1-2)example" features "Run Buddy" heading, a spot for an "what we do", "what you do", "meet the trainers " and "reach out" section.](./image/(1-2)example.png)
