@@ -49,10 +49,10 @@
 
 # ✨ (1-2)
 
-- lesson(1-1)မှာဆိုရင်တော့ HTML သီးသန့်သာ သုံးထားပြီး lesson(1-2)မှာဆိုရင်တော့ CSSကို စတင်အသုံးပြုလာပြီး HTML နဲ့ CSS ကိုဘယ်လိုချိတ်ဆက် အသုံးပြုရမလဲဆိုတာ သင်ကြားပေးထားပါတယ်။
+- lesson(1-1)မှာဆိုရင် HTML သီးသန့်သာ သုံးထားပြီး lesson(1-2)မှာဆိုရင်တော့ CSSကို စတင်အသုံးပြုလာပြီး HTML နဲ့ CSS ကိုဘယ်လိုချိတ်ဆက် အသုံးပြုရမလဲဆိုတာ သင်ကြားပေးထားပါတယ်။
 
 ## 💡 ရေးသားရမည့် ပုံစံ 
-- ![Webpage titled "(1-1)example" features "Run Buddy" heading, a spot for an "what we do", "what you do", "meet the trainwers " and "reach out" section.](./image/(1-2)example.png)
+- ![Webpage titled "(1-2)example" features "Run Buddy" heading, a spot for an "what we do", "what you do", "meet the trainers " and "reach out" section.](./image/(1-2)example.png)
 
 ## ရေးပုံရေးသားနည်း
 
@@ -79,5 +79,17 @@
           font-family: Helvetica, Arial, sans-serif;
         }
 
-# (1-3)
-- Explain common HTML attributes how they affect form elements.
+# ✨(1-3)
+
+- (1-3)ရဲ့ bodyပိုင်းမှာဆိုရင်တော့ (Hero/Jumbotron) Bckground Image ထည့်ပြီး (Registration Form) နာမည်စာရင်းပေးနည်းပုံစံ ရေးသားနည်းကို သင်ကြားပေးထားပါသည်။
+
+## 💡 ရေးသားရမည့် ပုံစံ 
+- ![Webpage titled "(1-3)example" features "Run Buddy" heading, a spot for an "Hero/Jumbotron" section.](./image/(1-3)example.png)
+
+## ရေးပုံရေးသားနည်း
+
+### HTML code ရေးနည်း
+
+- section tag ထဲမှာ class name "hero"
+
+### CSS code ရေးနည်း
