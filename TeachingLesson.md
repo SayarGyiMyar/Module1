@@ -112,14 +112,33 @@
 
 # ✨(1-3)
 
-- (1-3)ရဲ့ bodyပိုင်းမှာဆိုရင်တော့ (Hero/Jumbotron) Bckground Image ထည့်ပြီး (Registration Form) နာမည်စာရင်းပေးနည်းပုံစံ ရေးသားနည်းကို သင်ကြားပေးထားပါသည်။
+- (1-3)ရဲ့ bodyပိုင်းမှာဆိုရင်တော့ (Hero/Jumbotron) Bckground Image ထည့်ပြီး (Sign-Up Form) နာမည်စာရင်းပေးနည်းပုံစံ ရေးသားနည်းကို သင်ကြားပေးထားပါသည်။
 
 ## 💡 ရေးသားရမည့် ပုံစံ 
 ![Webpage titled "(1-3)example" features "Run Buddy" heading, a spot for an "Hero/Jumbotron" section.](./image/(1-3)example.png)
 
 ## ရေးပုံရေးသားနည်း
 
+### Hero structure (Background Image) တည်ဆောက်နည်း
+- html elementတစ်ခုကို အသုံးပြုပြီး Hero Section တစ်ခု တည်​ဆောက်ရပါမယ်။
+
+- Hero section ကိုအထူးပြုတဲ့ class attribute ကို  section tagထဲတွင် ထည့်ရေးပေးရပါမယ်။
+
+- Hero section ထဲတွင် sign-up-form ပေါ်ချင်သောကြောင့် html element (tag) တစ်ခု တည်ဆောက်ပေးရမည်။
+
+- sign-up-formကိုအထူးပြုတဲ့ class attribute ကို  တည်ဆောက်ထားသော element ထဲတွင် ထည့်ရေးပေးရပါမယ်။
+
+- Hero section အတွင်း၌ image ပေါ်ချင်သောကြောင့် css positionကို  relative ထည့်ရေးပြီး sign-up formကို image ပေါ်တွင်ပေါ်ချင်သောကြောင့် css positionကို  absolute ထည့်ရေးပေးရမည်။
+#### နမူနာပုံစံ
+![](./image/Screenshot%20from%202024-06-29%2015-54-03.png)
 ### HTML code ရေးနည်း
+      <!-- hero/jumbotron -->
+      <section class="hero">
+        <div class="hero-form">
+          
+        </div>
+      </section>  
+
 
 - section tag ထဲမှာ class name "hero"
 
