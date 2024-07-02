@@ -120,6 +120,9 @@
 ## ရေးပုံရေးသားနည်း
 
 ### Hero structure (Background Image) တည်ဆောက်နည်း
+
+![](./image/hero-bg.jpg)
+
 - html elementတစ်ခုကို အသုံးပြုပြီး Hero Section တစ်ခု တည်​ဆောက်ရပါမယ်။
 
 - Hero section ကိုအထူးပြုတဲ့ class attribute ကို  section tagထဲတွင် ထည့်ရေးပေးရပါမယ်။
@@ -129,9 +132,9 @@
 - sign-up-formကိုအထူးပြုတဲ့ class attribute ကို  တည်ဆောက်ထားသော element ထဲတွင် ထည့်ရေးပေးရပါမယ်။
 
 - Hero section အတွင်း၌ image ပေါ်ချင်သောကြောင့် css positionကို  relative ထည့်ရေးပြီး sign-up formကို image ပေါ်တွင်ပေါ်ချင်သောကြောင့် css positionကို  absolute ထည့်ရေးပေးရမည်။
-#### နမူနာပုံစံ
-![](./image/Screenshot%20from%202024-06-29%2015-54-03.png)
-### HTML code ရေးနည်း
+
+
+#### HTML code ရေးနည်း
       <!-- hero/jumbotron -->
       <section class="hero">
         <div class="hero-form">
@@ -140,6 +143,101 @@
       </section>  
 
 
-- section tag ထဲမှာ class name "hero"
+#### CSS code ရေးသားနည်း
+        .hero {
+                background-image: url('../images/hero-bg.jpg');
+                height: 600px;
+                background-size: cover;
+                background-position: center;
+                position: relative;
+              }
 
-### CSS code ရေးနည်း
+### Sign-Up Form ထည့်နည်း
+
+- Background image တွက်သူံးထားသော section tagထဲတွင် sign-up form ကိုရေးရမည်။
+- Section tag အတွင်းရှိသော divထဲတွင် form tag
+
+#### ထည့်ရမည့်ပုံစံ
+
+![](./image/sign%20-up.png)
+
+#### Html code ရေးနည်း
+
+        <!-- hero/jumbotron -->
+        <section class="hero">
+          <div class="hero-form">
+            <h3>Get Started Today</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <form>
+              <label for="name">Enter full name:</label>
+              <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+              <label for="email">Enter email address:</label>
+              <input type="text" placeholder="Email Address" name="email" id="email" class="form-input" />
+              <label for="phone">Enter a telephone number:</label>
+              <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+              <p>
+                Have you worked out with a trainer before?
+                <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                <label for="trainer-yes">Yes</label>
+                <input type="radio" name="trainer-confirm" id="trainer-no" />
+                <label for="trainer-no">No</label>
+              </p>
+              <p>
+                <label for="checkbox">
+                  I acknowledge that I am at least 18 years of age.
+                </label>
+                <input type="checkbox" name="checkpoint1" id="checkbox" />
+              </p>
+              <button type="submit">
+                Get running!
+              </button>
+            </form>
+          </div>
+        </section>
+
+#### CSS code ရေးနည်း
+
+        .hero-form {
+          border: 3px solid #024e76;
+          background-color: #fce138;
+          padding: 20px;
+          width: 500px;
+          color: #024e76;
+          position: absolute;
+          bottom: 120px;
+          right: 140px;
+        }
+
+        .hero-form h3 {
+          font-size: 24px;
+          margin: 0;
+        }
+        .hero-form p {
+          margin: 5px 0 15px 0;
+        }
+
+        .form-input {
+          border: 1px solid #024e76;
+          display: block;
+          padding: 7px 15px;
+          font-size: 16px;
+          color: #024e76;
+          width: 100%;
+          margin-bottom: 15px;
+        }
+
+        .hero-form label {
+          margin: 0 5px;
+        }
+
+        .hero-form button {
+          color: #fce138;
+          background-color: #024e76;
+          border: none;
+          padding: 10px 20px;
+          font-size: 16px;
+        }
+
+# (1-4)        
+
+- (1-4) အပိုင်းမှာ What we do and What you do section ရေးသားနည်းကြောင်း ဖော်ပြပေးမှာဖြစ်ပါတယ်
