@@ -238,6 +238,316 @@
           font-size: 16px;
         }
 
-# (1-4)        
+# ✨(1-4)        
 
 - (1-4) အပိုင်းမှာ What we do and What you do section ရေးသားနည်းကြောင်း ဖော်ပြပေးမှာဖြစ်ပါတယ်
+
+## 💡ရေးရမည့် ပုံစံမှာ
+
+![What we do and what you do section](./image/(1-4)example.png)
+
+#### What we do section ရေးသားနည်း
+
+- What we do section ထဲတွင် h2 and p tags နှစ်ခုထဲသာ အသုံးပြုထားပြီး CSS အသုံးပြုထားပါသည်။
+
+#### Html ရေးသားနည်း 
+
+      <!-- "what we do" section -->
+      <section id="what-we-do" class="intro">
+        <h2 class="section-title primary-border">What We Do</h2>
+        <p>
+          butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue
+          Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin
+          fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz
+          sustainable Intelligentsia umami deep v craft
+        </p>
+      </section>
+
+#### CSS ရေးနည်း
+
+      .intro {
+        text-align: center;
+      }
+      .intro p {
+        line-height: 1.7;
+        color: #39a6b2;
+        width: 80%;
+        font-size: 20px;
+        margin: 0 auto;
+      }
+      (section နှစ်ခုလုံး)
+      .section-title {
+        font-size: 55px;
+        color: #024e76;
+        margin-bottom: 35px;
+        padding: 0 100px 20px 100px;
+        display: inline-block;
+        border-bottom: 3px solid;
+      }
+
+      .primary-border {
+        border-color: #fce138;
+      }
+
+#### What we do section ရေးသားနည်း
+
+- What we do section ထဲတွင် photoလေးပုံပါလာပြီး ထိုphoto များကို img tag နဲ့ ရေးပါသည်, h3 and p tags များပါဝင်ပါသည်။
+
+#### HTML Code ရေးနည်း
+
+    <!-- "what you do" section -->
+      <section id="what-you-do" class="steps">
+        <h2 class="section-title secondary-border">What You Do</h2>
+
+        <div>
+          <img src="./assets/images/step-1.svg" alt="" />
+          <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
+          <p>You're already here, so why not?</p>
+        </div>
+
+        <div>
+          <img src="./assets/images/step-2.svg" alt="" />
+          <h3>Step 2: <span>Consult with One of Our Trainers.</span></h3>
+          <p>Are you here to build muscle, lose weight, or just feel good?</p>
+        </div>
+
+        <div>
+          <img src="./assets/images/step-3.svg" alt="" />
+          <h3>Step 3: <span>Get Running.</span></h3>
+          <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+        </div>
+
+        <div>
+          <img src="./assets/images/step-4.svg" alt="" />
+          <h3>Step 4: <span>See Results.</span></h3>
+          <p>Bi-weekly checkins with your trainer will keep you focused</p>
+        </div>
+      </section>
+
+#### CSS Code ရေးနည်း
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+
+.steps span {
+  font-size: 38px;
+}
+
+# ✨(1-5)
+
+- (1-5) အပိုင်းမှာ meet the trainer section အပိုင်း ရေးသားမှာဖြစ်ပါတယ်။
+- meet the trainer section အပိုင်းတွင် trainer သုံးယောက်ပါဝင်ပါသည်။
+
+## 💡ရေးမည့်ပုံစံ
+
+![meet the trainer](./image/(1-5)example.png)
+
+#### HTML Code ရေးနည်း
+
+        <!-- "meet the trainers" section -->
+          <section id="your-trainers" class="trainers">
+            <h2 class="section-title primary-border">Meet The Trainers</h2>
+            <article class="trainer">
+              <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+              <div class="trainer-bio text-left">
+                <h3>Arron Stephens</h3>
+                <h4>Speed / Strength</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa
+                  sed
+                  itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                </p>
+              </div>
+            </article>
+
+            <!-- second trainer bio -->
+            <article class="trainer">
+              <div class="trainer-bio text-right">
+                <h3>Joanna Gill</h3>
+                <h4>Endurance</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa
+                  sed
+                  itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                </p>
+              </div>
+              <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout"/>
+            </article>
+
+            <!-- third trainer bio -->
+            <article class="trainer">
+              <img src="./assets/images/trainer-3.jpg"
+                alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+              <div class="trainer-bio text-left">
+                <h3>Harry "the Headband" Smith</h3>
+                <h4>Strength</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa
+                  sed
+                  itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                </p>
+              </div>
+            </article>
+          </section>
+
+#### CSS Code ရေးနည်း
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+(1-3 တွင်ပါပြီီးသားဖြစ်သည်)
+.trainers {
+  text-align: center;
+}
+
+.trainer {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+  overflow: auto;
+}
+
+.trainer img {
+  width: 35%;
+  float: left;
+}
+
+.trainer-bio {
+  padding: 35px;
+  float: left;
+  width: 65%;
+}
+
+.trainer-bio h3 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+  font-weight: lighter;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.trainer-bio p {
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+# ✨(1-6)
+- (1-6)ရဲ့ body ပိုင်းမှာ "Reach Out" section ကိုသင်ကြားပေးထားပါတယ်။
+##  💡ရေးသားရမည့် ပုံစံ
+![Read Out section](./image/(1-6)example.png)
+## ရေးပုံရေးသားနည်း
+- Reach Out section အတွက်  section tag ထဲတွင် id, class ပေးထားရမည်။
+- section tag ထဲတွင် Reach Out title အတွက် h2 tagကိုသုံးရမည်။
+- contact-info နှင့် map ကို section တစ်ခုထဲတွင် ပေါ်ချင်သောကြောင့် div tag အတွင်းရေးပေးရမည်။
+- map ကို div tag အတွင်း ပေါ်ရန် imframe tag ကိုခေါ်ပြီး imframe tag အတွင်းတွင် မိမိထည့်ချင်သော address အတိအကျကို google map တွင် location အတိကျထောက်ပြီး url address ကို  src အတွင်းတွင် ကူးထည့်ပေးရမည်။(google map ပေါ်ရန် internet လိုအပ်တယ်) map size ပြောင်းရန် css တွင်  width, height ပြုပြင်ရမည်။
+- div tag အတွင်း contact-info ကို တစ်စုထဲပေါ်ချင်သောကြောင့် နောက်ထပ် div tag တစ်ခုဖြင့်ရေးပေးရမည်။
+- အသစ်ရေးထားသော div tag ထဲတွင် မိမိပေါ်ချင်သောအကြောင်းအရာများကို သက်ဆိုင်ရာ tag များအားထည့်ပြီးရေးပေးရမည်။ google map နှင့် contact-info ကို တစ်lineထဲ ပေါ်ချင်သောကြောင့်  css ထဲတွင် display: inline-block; ထည့်ရေးရမည်။ ပြင်ပြီးသား contact-info များသည် အောက်ကျနေသောကြောင့် vertical-align: top;ကို စာသားရွေ့ရန်သုံးပေးရမည်။
+### HTML code ရေးနည်း
+            <!-- "reach out" section -->
+            <section id="reach-out" class="contact">
+                <h2 class="section-title secondary-border">Reach Out</h2>
+                <div class="contact-info">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1079747227936!2d-120.42364418397035!3d37.92790791110593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8090c49129b6ac57%3A0xb56c7eb95a2cd8bd!2sMain%20St%2C%20California%2095327!5e0!3m2!1sen!2sus!4v1616426329495!5m2!1sen!2sus"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+                <div>
+                    <h3>Run Buddy</h3>
+                    <p>
+                    Any questions or concerns before signing up?
+                    <br />
+                    Let us know and we'll be happy to talk to you!
+                    </p>
+                    <address>
+                    55 Main Street <br />
+                    Some Town, Ca <br />
+                    12345<br />
+                    P: 555.RUN.BUDZ (555.786.2839)<br />
+                    E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+                    </address>
+                </div>
+                </div>
+            </section>
+### CSS code ရေးနည်း
+            /* REACH OUT STYLES START */
+            .contact {
+            text-align: center;
+            background: #024E76;
+            }
+            .contact h2 {
+            color: #FCE138;
+            }
+            .contact-info iframe {
+            width: 400px;
+            height: 400px;
+            }
+            .contact-info div {
+            width: 410px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: left;
+            margin: 30px 0 0 60px;
+            color: white;
+            }
+            .contact-info h3 {
+            color: #FCE138;
+            font-size: 32px;
+            }
+            .contact-info p,
+            .contact-info address {
+            margin: 20px 0;
+            line-height: 1.5;
+            font-size: 20px;
+            font-style: normal;
+            }
+            .contact-info a {
+            color: #FCE138;
+            }
+            /* REACH OUT STYLES END */
